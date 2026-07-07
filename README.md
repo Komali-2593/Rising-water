@@ -1,39 +1,27 @@
 # 🌊 Rising Water Prediction System
 
-A Machine Learning-based web application that predicts rising water levels and helps users analyze flood-related risks using historical data. The application is built with **Python** and **Streamlit**, providing an interactive and user-friendly interface for predictions.
+A Machine Learning-based web application that predicts rising water levels and helps users analyze flood-related risks through an interactive Streamlit interface.
 
 ## 🚀 Live Demo
 
-🔗 https://skillwalletrisingwater.streamlit.app/
-
----
+🔗 **Live Application:** https://skillwalletrisingwater.streamlit.app/
 
 ## 📌 Project Overview
 
-Floods and rising water levels can cause significant damage to communities, infrastructure, and agriculture. This project leverages Machine Learning to predict water level trends based on input parameters, enabling users to make informed decisions.
-
-The application provides an easy-to-use interface where users can enter the required values and instantly receive prediction results.
-
----
+The Rising Water Prediction System is designed to predict water levels based on user inputs using a trained Machine Learning model. The application provides quick and reliable predictions through an intuitive web interface, making it easy for users to analyze potential water level changes.
 
 ## ✨ Features
 
 * 🌊 Predicts rising water levels using Machine Learning
-* 📊 Interactive Streamlit web interface
-* ⚡ Fast real-time predictions
-* 📱 Responsive and user-friendly design
-* 📈 Data-driven decision support
+* 📊 Interactive and user-friendly Streamlit interface
+* ⚡ Instant prediction results
+* 📱 Responsive web application
 * ☁️ Deployed on Streamlit Community Cloud
-
----
+* 💻 Easy to use with minimal inputs
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-
-* Streamlit
-
-**Backend**
+**Programming Language**
 
 * Python
 
@@ -43,109 +31,76 @@ The application provides an easy-to-use interface where users can enter the requ
 * Pandas
 * NumPy
 
+**Web Framework**
+
+* Streamlit
+
 **Deployment**
 
 * Streamlit Community Cloud
 
----
-
 ## 📂 Project Structure
 
-```
+```text
 Rising-water/
-│
-├── app.py                 # Main Streamlit application
-├── model.pkl              # Trained ML model
-├── requirements.txt       # Required Python libraries
-├── dataset.csv            # Dataset used for training
-├── README.md
-└── assets/                # Images and other resources
+│── app.py
+│── requirements.txt
+│── model.pkl
+│── dataset.csv
+│── README.md
 ```
 
-> Folder names may vary slightly depending on your repository.
-
----
+> *Note:* Some file names may vary depending on your project structure.
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Komali-2593/Rising-water.git
 ```
 
-### 2. Navigate to the project
+### Navigate to the project directory
 
 ```bash
 cd Rising-water
 ```
 
-### 3. Install dependencies
+### Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the application
+### Run the application
 
 ```bash
 streamlit run app.py
 ```
 
----
-
 ## 📊 How It Works
 
-1. Enter the required input values.
-2. The trained Machine Learning model processes the inputs.
-3. The application predicts the expected water level or flood risk.
-4. Results are displayed instantly through the Streamlit interface.
+1. Launch the Streamlit application.
+2. Enter the required input values.
+3. Click the prediction button.
+4. The trained Machine Learning model processes the inputs.
+5. View the predicted water level instantly.
 
----
+## 🎯 Future Enhancements
 
-## 📸 Application Preview
-
-Add screenshots here.
-
-Example:
-
-```
-images/home.png
-images/prediction.png
-```
-
-Then display them using:
-
-```markdown
-![Home Page](images/home.png)
-
-![Prediction Page](images/prediction.png)
-```
-
----
-
-## 🎯 Future Improvements
-
-* Add real-time weather API integration
-* Interactive maps for flood-prone regions
-* Historical trend visualization
-* Improved prediction accuracy
-* Mobile-friendly UI enhancements
-* Downloadable prediction reports
-
----
+* Improve model accuracy using larger datasets.
+* Integrate real-time weather and rainfall APIs.
+* Add interactive data visualizations.
+* Display historical water-level trends.
+* Generate downloadable prediction reports.
+* Enhance UI for a better user experience.
 
 ## 👩‍💻 Author
 
 **Komali Alekhya Siddhani**
 
 * GitHub: https://github.com/Komali-2593
-* LinkedIn: *(Add your LinkedIn profile here)*
-
----
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
-
-It helps others discover the project and motivates future improvements.
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub. It motivates future improvements and helps others discover the project.
